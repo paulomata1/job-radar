@@ -38,6 +38,16 @@ KEYWORDS_INTL = [
     "AI Trainer",
     "Data Labeler",
     "Search Quality Rater",
+    "Power BI Analyst",
+    "Power BI Developer",
+    "BI Developer",
+    "Business Intelligence Analyst",
+    "Analytics Analyst",
+    "Data Intelligence Analyst",
+    "Data Quality Analyst",
+    "Reporting Analyst",
+    "Insights Analyst",
+    "Analytics Specialist",
 ]
 
 # Termos de busca: cargo + sinal de idioma (português/espanhol/bilíngue) ou
@@ -105,6 +115,17 @@ TERMOS_BUSCA_INTL = [
     "portuguese and spanish",
     "spanish market",
     "latam",
+    "power bi analyst",
+    "power bi developer",
+    "bi analyst",
+    "bi developer",
+    "business intelligence analyst",
+    "analytics analyst",
+    "data quality analyst",
+    "data intelligence analyst",
+    "reporting analyst",
+    "senior data analyst",
+    "senior bi analyst",
 ]
 
 # MEDIDO: filtro de cargo (KEYWORDS_INTL) nunca checou idioma — a exigência
@@ -122,20 +143,7 @@ TERMOS_BUSCA_INTL = [
 # mais a grafia em espanhol/português — busca casa com anúncio em inglês
 # na maioria das vezes, mas o TÍTULO que sobra pode vir em qualquer um dos
 # três idiomas.
-IDIOMAS_EXIGIDOS_INTL = [
-    "spanish",
-    "espanol",
-    "español",
-    "portuguese",
-    "português",
-    "portugues",
-    "latam",
-    "latin america",
-    "america latina",
-    "hispanohablante",
-    "lusofono",
-    "lusófono",
-]
+IDIOMAS_EXIGIDOS_INTL = None
 
 # Rodízio de termos, mesmo mecanismo do TERMOS_POR_CICLO em config.py (ver
 # _proximo_bloco_termos em main.py) — só que com chave de metadados própria
@@ -167,6 +175,17 @@ TERMOS_POR_CICLO_INTL = 10
 # texto dentro do termo de busca (acima) em vez de location. "Iberia" não
 # precisa de entrada própria — já é coberto por Spain + Portugal abaixo.
 LOCATIONS_INTL = [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "India",
+    "Australia",
+    "Germany",
+    "Netherlands",
+    "Ireland",
+    "Singapore",
+    "United Arab Emirates",
+    "Angola",
     "Spain",
     "Portugal",
     "Mexico",
@@ -231,6 +250,17 @@ MERCADOS_REMOTO_ACEITOS_INTL = [
     "Moçambique",
     "Cabo Verde",
     "LATAM",
+    "Estados Unidos",
+    "Reino Unido",
+    "Canadá",
+    "Índia",
+    "Austrália",
+    "Alemanha",
+    "Holanda",
+    "Irlanda",
+    "Singapura",
+    "Emirados Árabes Unidos",
+    "Angola",
 ]
 
 # Eixo separado pra isso, controlado por ATIVAR_EIXO_IBERICO — dá pra

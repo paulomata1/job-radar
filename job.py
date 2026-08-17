@@ -751,8 +751,8 @@ _PESO_IDIOMA = 1
 # é o problema de "vaga tolerável demais" que motivou o deságio (volume
 # desprezível: 0,3% da base). Nada disso é filtro — a vaga ainda notifica,
 # só muda a posição no ranking (imediata vs. digest, topo vs. fundo).
-_NIVEIS_SENIORIDADE_ALVO = {"Júnior", "Pleno"}
-_NIVEIS_SENIORIDADE_ACIMA_DO_ALVO = {"Sênior", "Especialista", "Liderança"}
+_NIVEIS_SENIORIDADE_ALVO = {"Pleno", "Sênior", "Especialista"}
+_NIVEIS_SENIORIDADE_ACIMA_DO_ALVO = {"Liderança"}
 
 
 @dataclass

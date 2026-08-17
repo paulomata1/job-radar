@@ -43,6 +43,19 @@ KEYWORDS_CARGO_FORTE = [
     # LinkedInScraper já busca em Argentina/Chile (ver LOCATIONS_LINKEDIN).
     "Analista de Datos",
     "Analítica de Datos",
+    "Power BI Developer",
+    "Power BI Analyst",
+    "Analista Power BI",
+    "Analista de Power BI",
+    "Especialista BI",
+    "Especialista em BI",
+    "Especialista Power BI",
+    "Consultor Power BI",
+    "Consultor de Power BI",
+    "Senior Data Analyst",
+    "Senior BI Analyst",
+    "Analista de Dados Sênior",
+    "Analista de BI Sênior",
 ]
 
 # Cargo ambíguo: título que também é usado em vaga sem nada a ver com
@@ -156,6 +169,11 @@ TERMOS_POR_CICLO = 10
 
 CIDADES = [
     "Remoto",
+    "Remote",
+    "Brasília",
+    "Brasilia",
+    "Distrito Federal",
+    "DF",
     "Campina Grande",
     "João Pessoa",
     "Recife",
@@ -167,6 +185,11 @@ CIDADES = [
     "São Luís",
     "Petrolina",
     "Caruaru",
+    "São Paulo",
+    "Sao Paulo",
+    "Rio de Janeiro",
+    "Goiania",
+    "Goiânia",
 ]
 
 # MEDIDO: "Data Analyst @ Lisboa" e "Analista de Datos @ Madrid" reprovavam
